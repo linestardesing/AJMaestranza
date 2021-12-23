@@ -1,0 +1,5 @@
+// fly
+// options.distance - width/4 by default
+// options.revers - change the direction of transition
+function ws_fly(d,g,f){var b=jQuery,p=b(this),h={position:"absolute",left:0,top:0,width:"100%",height:"100%",transform:"translate3d(0,0,0)"},q=f.find(".ws_list"),e=b("<div>").addClass("ws_effect ws_fly").css(h).css({overflow:"visible"}).appendTo(f);this.go=function(f,l,c){c=void 0==c?!!d.revers:!c;var a=-(d.distance||e.width()/4),m=Math.min(-a,Math.max(0,b(window).width()-e.offset().left-e.width())),r=c?m:a;c=c?a:m;var a=b(g.get(l)),a={width:a.width(),height:a.height()},n=b("<div>").css(h).css({"z-index":1,
+overflow:"hidden"}).html(b(g.get(l)).clone().css(a)).appendTo(e),k=b("<div>").css(h).css({"z-index":3,overflow:"hidden"}).html(b(g.get(f)).clone().css(a)).appendTo(e).show();wowAnimate(k,{opacity:0},{opacity:1},d.duration);wowAnimate(k,{left:r},{left:0},2*d.duration/3);q.hide();wowAnimate(n,{left:0,opacity:1},{left:c,opacity:0},2*d.duration/3,d.duration/3,function(){n.remove();p.trigger("effectEnd");k.remove()})}};
