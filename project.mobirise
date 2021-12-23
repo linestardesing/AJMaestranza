@@ -30,7 +30,7 @@
         "isGhostButtonBorder": true,
         "underlinedLinks": true,
         "isAnimatedOnScroll": true,
-        "isScrollToTopButton": false
+        "isScrollToTopButton": true
       },
       "additionalSetColors": []
     },
@@ -95,7 +95,7 @@
     "index.html": {
       "settings": {
         "main": true,
-        "title": "AJ Maestraza Industrial",
+        "title": "AJ Maestranza Industrial",
         "meta_descr": "AJ Maestranza industrial. Brindamos servicio de maestranza, tornería, fresado, fabricación y rectificación de piezas mecánicas. Contamos con profesionales altamente calificados más de 20 años de experiencia en el rubro, estamos ubicados en Satélite Norte Calle Central S/N Urbanización Bibosi. Contacto: 76686673 / 72613751",
         "header_custom": "",
         "footer_custom": "",
