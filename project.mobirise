@@ -71,7 +71,7 @@
       "enabled": true
     },
     "favicon": "@PROJECT_PATH@/assets/images/logo-aprobado-128x128.png",
-    "mbrsiteDomain": "y9kuvmf929",
+    "mbrsiteDomain": "scdlmpczr8",
     "cssOptimize": false,
     "lazyLoad": false,
     "robotsSwitcher": false,
@@ -89,7 +89,10 @@
       "name": "",
       "icon": "@PROJECT_PATH@/assets/images/logo-aprobado-512x512.png",
       "themeColor": "#9fdbf8"
-    }
+    },
+    "google-analytics": "<meta name=\"google-site-verification\" content=\"p1CNkyd1oR0Oxda21VnTrKk5n00i2j_M6tcYMT2vzL8\" />",
+    "global_after_body": "<meta name=\"google-site-verification\" content=\"p1CNkyd1oR0Oxda21VnTrKk5n00i2j_M6tcYMT2vzL8\" />",
+    "global_header_custom": ""
   },
   "pages": {
     "index.html": {
